@@ -67,7 +67,7 @@ public class Task2ExampleTests {
             .toString();
 
         TestHelper plan = new TestHelper().showWorldState(initialWorldState)
-            .simulate(720)
+            .simulate(720) 
             .showWorldState(afterADay);
         plan.executeTestPlan();
     }

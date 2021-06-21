@@ -29,9 +29,9 @@ public class Cli {
     public Cli() {
         // feel free to change this to point to whatever class you want to point it to
         // or to pass in arguments or however else this feeds into your design.
-        blackout = new Blackout();
+        blackout = new Blackout(LocalTime.of(0, 0));
     }
-
+ 
     /// There is no need to change this function, please don't change this
     /// If you change this there is a good chance you'll break something...
     public static void main(String[] args) {
